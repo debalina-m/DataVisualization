@@ -1,0 +1,29 @@
+h1 {
+  font-family: sans-serif;
+}
+
+.chart text.value {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.chart text.label {
+  font: 10px sans-serif;
+}
+
+body { font: 12px Arial;}
+
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
